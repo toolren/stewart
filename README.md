@@ -28,8 +28,12 @@ roslaunch stewart stewart.launch
 
 
 关于ps4手柄如何控制平台移动：对比下图
+
 手柄的axes[0]负责末端平台的 x 方向的位移 手柄的axes[4]负责末端平台的 x 方向的旋转
+
 手柄的axes[1]负责末端平台的 y 方向的位移 手柄的axes[3]负责末端平台的 y 方向的旋转
+
 手柄的axes[7]负责末端平台的 z 方向的位移 手柄的axes[6]负责末端平台的 z 方向的旋转
+
 ![](https://github.com/toolren/stewart/blob/main/gif/ps4_control.png)
 
