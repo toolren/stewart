@@ -1,0 +1,10 @@
+echo "### 排除编译产物 ###" >> .gitignore
+echo "plugin/build/" >> .gitignore
+echo "build/" >> .gitignore
+echo "devel/" >> .gitignore
+echo "install/" >> .gitignore
+echo "### 排除编辑器配置 ###" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo "### 排除临时文件 ###" >> .gitignore
+echo "*.log" >> .gitignore
+echo "*.swp" >> .gitignore
